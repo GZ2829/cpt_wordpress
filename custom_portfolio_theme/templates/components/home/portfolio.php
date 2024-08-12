@@ -5,9 +5,7 @@
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;"><?= $args['bg_title'] ?></h1>
                 <h1 class="position-absolute text-uppercase theme-color"><?= $args['title'] ?></h1>
             </div>
-            <div class="carousel-outerbox" style="<?php 
-                
-            ?>">
+            <div class="carousel-outerbox">
                 <div class='slick-center'>
                     <?php foreach($args['projects'] as $key => $project): 
                         $id = $project[ 'ID' ];
