@@ -1,7 +1,7 @@
 <!-- Header Start -->
 <div id="homeHero" class="homeHero" style="<?= $args['bg_type'] === 'color' ? 'background-color:' . " " . $args['bg_color'] . ';': ''; ?>">
     <?php if( $args['bg_type'] === 'video' ): ?>
-        <video autoplay muted loop id="myVideo">
+        <video autoplay muted loop>
             <source src="<?= $args['bg_video'] ?>" type="video/mp4">
         </video>
     <?php endif; ?>
