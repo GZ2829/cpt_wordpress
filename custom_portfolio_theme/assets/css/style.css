@@ -10103,4 +10103,8 @@ h6,
   .homeHero-imageBox {
     width: 250px;
   }
+
+  .mobileFont{
+    font-size: 23px;
+  }
 }
