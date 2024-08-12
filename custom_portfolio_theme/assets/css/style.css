@@ -10057,8 +10057,8 @@ h6,
 }
 
 .about-imgBox img{
-  width: inherit;
-  height: auto;
+  width: inherit!important;
+  height: auto!important;
 }
 
 @media (max-width: 1040px) {
