@@ -9959,6 +9959,7 @@ h6,
 
 .homeHero-imageBox {
   max-width: 500px;
+  width: 100%;
 }
 
 .homeHero-imageBox img{
